@@ -3,11 +3,30 @@
 Your code goes below.
 
 */
+let x = 3;
+let y = 10;
+let z = 5;  
+let greeting = 'HEY';
 
+function multiply(n) {
+  x = x * n;
+}
 
+function modYBy(n) {
+  y = y % n;
+}
 
+function opposite(n) {
+  z = ~n + 1;
+}
 
+function makeFullName(n) {
+  name = ' ' + n;
+}
 
+function yellAt(n) {
+  greeting = greeting + ', ' + n + '!';  
+}
 
 /*********************************************************************************************************************
 
